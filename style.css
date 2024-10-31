@@ -1276,3 +1276,8 @@ span::before{
     }
 }
 /* ------hết hiệu ứng di chuyển chuột----- */
+@media only screen and (max-width: 600px) {
+    .container .boxcontainer {
+      width: 370px;
+    }
+}
