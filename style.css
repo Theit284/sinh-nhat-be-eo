@@ -1155,6 +1155,20 @@ span{
     transform: translate(20px, 20px);
     box-shadow: -1px -1px 5px rgb(0, 0, 0, 0.4);
 }
+.boxMail .boxMail-container:hover .card2-content{
+    transform: translate(20px, 20px);
+    box-shadow: -1px -1px 5px rgb(0, 0, 0, 0.4);
+}
+.boxMail .boxMail-container:hover .card2-content h2.qua img{
+    width: 45px;
+}
+.boxMail .boxMail-container:hover .card2-content .special-message{
+    font-size: 25px; /* Kích thước chữ */
+    font-weight: bold; /* In đậm */
+    color: #fa2600; /* Màu chữ */
+    text-align: center; /* Căn giữa */
+    margin-top: 10px;
+}
 .boxMail .boxMail-container .card2 h3{
     font-family: 'Dancing Script', cursive;
     padding: 20px 0px 10px 60px;
@@ -1163,6 +1177,7 @@ span{
     font-size: 35px;
     text-shadow: 0 0 8px red;
 }
+
 .boxMail .boxMail-container .card2:hover h3{
     animation: texth3 3s forwards;
     animation-delay: 2s;
@@ -1279,5 +1294,8 @@ span::before{
 @media only screen and (max-width: 600px) {
     .container .boxcontainer {
       width: 370px;
+    }
+    .boxMail .boxMail-container .card2 h2{
+        font-size: 22px;
     }
 }
